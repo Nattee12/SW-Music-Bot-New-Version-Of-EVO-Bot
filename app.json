@@ -1,0 +1,7 @@
+{
+  "name": "darkk",
+  "description": "Discord Music Bot built with discord.js",
+  "repository": "https://github.com/KabirJaipal/Piku",
+  "logo": "http://www.simpleimageresizer.com/_uploads/photos/7902fd72/images_1_1280x640_1_50.png",
+  "keywords": ["discord", "discordjs", "music", "bot"]
+}
