@@ -32,7 +32,7 @@ module.exports = {
     let streamType = song.url.includes("youtube.com") ? "opus" : "ogg/opus";
 
     try {
-      if (song.url.includes("youtube.com")) {
+      if (song.url.includes("youtube.com")) { 
         stream = await ytdl(song.url, { highWaterMark: 1 << 25 });
       } else if (song.url.includes("soundcloud.com")) {
         try {
