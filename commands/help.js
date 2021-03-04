@@ -9,8 +9,8 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
       .setTitle(`${message.client.user.username} Help`)
-      .setDescription("List of all commands")
-      .setColor("#F8AA2A")
+      .setDescription("List of all commands Of 𝙎𝙒メ MUSIC")
+      .setColor("RANDOM")
       .setFooter(`Bot Made By Kabir Jaipal #2021 | github.com/kabirjaipal`);
 
     commands.forEach((cmd) => {
