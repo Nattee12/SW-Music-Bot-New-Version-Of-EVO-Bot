@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: "help",
   aliases: ["h"],
-  description: "Display all commands and descriptions",
+  description: "Display all commands and descriptions of 𝙎𝙒メ MUSIC",
   execute(client ,message , args) {
     var allcmds = "";
 
@@ -14,9 +14,9 @@ module.exports = {
 
     let embed = new MessageEmbed()
       .setAuthor("Commands of " + client.user.username, "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
-      .setColor("BLUE")
+      .setColor("Random")
       .setDescription(allcmds)
-      .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Hander by ItzCutePikachu#2006`)
+      .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Made by Kabir Jaipal#2021`)
 
     if (!args[0]) return message.channel.send(embed)
     else {
